@@ -10,11 +10,5 @@
 .border{
     border:2px outset;
 }
-.radio_custom{
-    border: black solid;
-}
-.checkbox_custom{
-    color: transparent;
-    display: inline;
-}
+
 
