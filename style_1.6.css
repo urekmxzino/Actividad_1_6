@@ -1,0 +1,20 @@
+.margenAbajo{
+    margin-bottom: 6px;
+}
+.margenAbajo1{
+    margin-bottom: 25px;
+}
+.border1{
+    border:2px inset;
+}
+.border{
+    border:2px outset;
+}
+.radio_custom{
+    border: black solid;
+}
+.checkbox_custom{
+    color: transparent;
+    display: inline;
+}
+

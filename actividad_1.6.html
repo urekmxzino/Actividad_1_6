@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_1.6.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+
+    <form action="">
+        <label for="nombre">Introduce tu nombre:</label>
+        <input type="text" name="nombre" class="margenAbajo border1"><br>
+        <label for="mensaje">Mensaje:</label>
+        <input type="text" maxlength="50" size="50" name="mensaje" class="margenAbajo1 border1"><br>
+
+
+        <label for="select">Selecciona el color de tu icono</label><br>
+        <input type="radio" id="rojo" name="color" value="rojo" >
+        <label for="rojo" >Rojo</label><br>
+        <input type="radio" id="verde" name="color" value="verde">
+        <label for="verde">Verde</label><br>
+        <input type="radio" id="azul" name="color" value="azul">
+        <label for="azul">Azul</label><br>
+
+        <hr>
+        <label for="select">Selecciona el color de tu icono</label><br>
+        <input type="checkbox" id="lunes" name="dia" value="lunes" class="checkbox_custom">
+        <label for="lunes">Lunes</label><br>
+        <input type="checkbox" id="martes" name="dia" value="martes">
+        <label for="martes">Martes</label><br>
+        <input type="checkbox" id="miercoles" name="dia" value="miercoles">
+        <label for="miercoles">Miércoles</label><br>
+        <input type="checkbox" id="jueves" name="dia" value="jueves">
+        <label for="jueves">Jueves</label><br>
+        <input type="checkbox" id="viernes" name="dia" value="viernes">
+        <label for="viernes">Viernes</label><br>
+        <hr>
+        <input type="button" value="Probar" class="border">
+    </form>
+</body>
+</html>
